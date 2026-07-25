@@ -150,7 +150,7 @@ jar {
     finalizedBy 'reobfJar'
 }
 
-publishMods {
+/*publishMods {
     displayName = "$modname-${modloader.toUpperCase()}/mc$mcversion/v$modversion"
     type = STABLE
     file = jar.archiveFile
@@ -175,7 +175,7 @@ publishMods {
         projectId = modrinthid
         minecraftVersions.addAll(mcversion)
     }
-}
+}*/
 
 def getChangelogText() {
     def result = ""
