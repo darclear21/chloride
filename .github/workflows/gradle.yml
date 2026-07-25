@@ -33,7 +33,7 @@ jobs:
         with:
           arguments: build
       - name: Capture Build Artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: compiled-mod
           path: build/libs/*.jar
